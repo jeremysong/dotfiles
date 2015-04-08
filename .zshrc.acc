@@ -1,0 +1,18 @@
+  #Alias
+  alias ll="ls -lh"
+  alias bp="brazil-path"
+  alias idea="/apollo/env/IntelliJ-14/bin/launch-idea 2>/dev/null &"
+  alias eh="expand-hostclass"
+  alias rebase="git rebase HEAD~2 -i"
+  alias sql_rws="/apollo/env/envImprovement/bin/sqlplus yanson_admin@trws1na"
+  
+  #Function
+  function cd() {
+    builtin cd "$@"
+    clear
+    ll  
+  }
+  
+  #Export
+  export GIT_SSH=/usr/bin/ssh
+  export BRAZIL_WORKSPACE_GITMODE=1
