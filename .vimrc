@@ -1,7 +1,7 @@
 " Douglas Black
 " Colors {{{
 syntax enable           " enable syntax processing
-colorscheme badwolf
+colorscheme elflord
 " }}}
 " Misc {{{
 set ttyfast                     " faster redraw
@@ -108,7 +108,7 @@ let g:syntastic_ignore_files = ['.java$']
 " Launch Config {{{
 runtime! debian.vim
 set nocompatible
-call pathogen#infect()
+"call pathogen#infect()
 " }}}
 "" Tmux {{{
 "if exists('$TMUX') " allows cursor change in tmux mode
